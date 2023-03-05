@@ -1,0 +1,44 @@
+{
+  "name": "chalko",
+  "version": "1.0.2",
+  "description": "Chalk for the browser",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henryhale/chalko.git"
+  },
+  "author": {
+    "name": "Henry Hale",
+    "url": "https://github.com/henryhale"
+  },
+  "bugs": {
+    "url": "https://github.com/henryhale/chalko/issues"
+  },
+  "homepage": "https://github.com/henryhale/chalko#readme",
+	"type": "module",
+  "main": "./index.js",
+	"exports": "./index.js",
+	"typings": "./index.d.ts",
+  "files": [
+    "./index.d.ts",
+    "./index.js",
+    "./LICENSE",
+    "./README.md"
+  ],
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [
+    "chalk",
+    "color",
+		"colour",
+		"colors",
+    "formatting",
+    "string",
+    "style",
+		"styles",
+    "text",
+    "terminal",
+    "web"
+  ]
+}
