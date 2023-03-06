@@ -8,6 +8,7 @@
 > Just like [chalk](https://github.com/chalk/chalk) but right in your browser.
 
 <br/>
+
 ## Features
 
 - Expressive API
