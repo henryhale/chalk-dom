@@ -5,16 +5,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henryhale/chalko.git"
+    "url": "git+https://github.com/henryhale/chalk-dom.git"
   },
   "author": {
     "name": "Henry Hale",
     "url": "https://github.com/henryhale"
   },
   "bugs": {
-    "url": "https://github.com/henryhale/chalko/issues"
+    "url": "https://github.com/henryhale/chalk-dom/issues"
   },
-  "homepage": "https://github.com/henryhale/chalko#readme",
+  "homepage": "https://github.com/henryhale/chalk-dom#readme",
 	"type": "module",
   "main": "./index.js",
 	"exports": "./index.js",

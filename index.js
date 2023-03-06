@@ -30,7 +30,7 @@ const defaultConfig = {
     strikethrough: false,
 };
 
-class Chalko {
+class Chalk {
     constructor(options = { nest: false }) {
         /**
          * @private api
@@ -92,7 +92,7 @@ class Chalko {
      * @param {boolean} flag 
      */
     _create(flag) {
-        const $self = !flag ? this : new Chalko({ nest: true });
+        const $self = !flag ? this : new Chalk({ nest: true });
         const fn = $self.toString.bind($self);
         Object.setPrototypeOf(fn, $self);
         return fn;
@@ -152,4 +152,4 @@ class Chalko {
     }
 }
 
-export default new Chalko();
+export default new Chalk();
