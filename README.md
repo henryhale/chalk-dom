@@ -1,7 +1,7 @@
 <div align='center'>
 <h1>Chalk-dom</h1>
 <p>chalk for the browser</p>
-<img src="https://github.com/henryhale/chalk-dom/tree/master/media/screenshot.png" alt="">
+<img src="https://github.com/henryhale/chalk-dom/blob/master/media/screenshot.png" alt="">
 </div>
 <br/>
 
