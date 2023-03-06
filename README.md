@@ -1,7 +1,7 @@
 <div align='center'>
 <h1>Chalk-dom</h1>
 <p>chalk for the browser</p>
-<img src="./media/screenshot.png" alt="">
+<img src="https://github.com/henryhale/chalk-dom/tree/master/media/screenshot.png" alt="">
 </div>
 <br/>
 
@@ -49,11 +49,11 @@ log(chalk.blue('Hello World!'));
 
 ## Demo
 
-To run the [demo](https://github.com/henryhale/chalko/blob/master/demo), clone this repo and simply open the [index.html](https://github.com/henryhale/chalko/blob/master/demo/index.html) file in your browser.
+To run the [demo](https://github.com/henryhale/chalk-dom/blob/master/demo), clone this repo and simply open the [index.html](https://github.com/henryhale/chalk-dom/blob/master/demo/index.html) file in your browser.
 
 ## API
 
-The one difference with [inken](https://github.com/henryhale/inken) is styles can be chained with [chalko](https://github.com/henryhale/chalko).
+The one difference with [inken](https://github.com/henryhale/inken) is styles can be chained with [chalk-dom](https://github.com/henryhale/chalk-dom).
 
 ```js
 import chalk from 'chalk-dom';
@@ -108,4 +108,4 @@ log(chalk.bgBlack.yellow.italic('Hello, World!'));
 
 ## LICENSE
 
-Released under the [MIT License](https://github.com/henryhale/chalko/blob/master/LICENSE)
+Released under the [MIT License](https://github.com/henryhale/chalk-dom/blob/master/LICENSE)
