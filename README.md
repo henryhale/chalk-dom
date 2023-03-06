@@ -4,10 +4,11 @@
 <img src="./media/screenshot.png" alt="">
 </div>
 <br/>
-<br/>
+
 > Just like [chalk](https://github.com/chalk/chalk) but right in your browser.
+
 <br/>
-<br/>
+
 ## Features
 
 - Expressive API
