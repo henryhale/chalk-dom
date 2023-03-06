@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/henryhale/chalko.git"
+    "url": "git+https://github.com/henryhale/chalko.git"
   },
   "author": {
     "name": "Henry Hale",
@@ -18,7 +18,7 @@
 	"type": "module",
   "main": "./index.js",
 	"exports": "./index.js",
-	"typings": "./index.d.ts",
+	"types": "./index.d.ts",
   "files": [
     "./index.d.ts",
     "./index.js",
