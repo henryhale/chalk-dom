@@ -1,11 +1,11 @@
 <div align='center'>
-<h1>Chalko</h1>
-<p>for the browser</p>
+<h1>Chalk-dom</h1>
+<p>chalk for the browser</p>
 <img src="./media/screenshot.png" alt="">
 </div>
 <br/>
 
-> Just like [chalk](https://github.com/chalk/chalk) but right in your browser.
+> Just like [chalk](https://github.com/chalk/chalk) but right in your browser. It uses HTMElement elements (b,s,i,span) and a little inline-css.
 
 <br/>
 
@@ -22,7 +22,7 @@
 ## Install
 
 ```console
-$ npm install chalko
+$ npm install chalk-dom
 ```
 
 ## Usage
