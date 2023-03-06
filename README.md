@@ -36,7 +36,7 @@ $ npm install chalko
 ### JavaScript
 
 ```js
-import chalko from 'chalko';
+import chalk from 'chalk-dom';
 
 const consoleBox = document.getElementById('console');
 
@@ -44,7 +44,7 @@ function log(...data) {
     consoleBox.innerHTML += `<div>${data.join(' ')}</div>`;
 }
 
-log(chalko.blue('Hello World!'));
+log(chalk.blue('Hello World!'));
 ```
 
 ## Demo
@@ -56,11 +56,11 @@ To run the [demo](https://github.com/henryhale/chalko/blob/master/demo), clone t
 The one difference with [inken](https://github.com/henryhale/inken) is styles can be chained with [chalko](https://github.com/henryhale/chalko).
 
 ```js
-import chalko from 'chalko';
+import chalk from 'chalk-dom';
 
 ...
 
-log(chalko.bgBlack.yellow.italic('Hello, World!'));
+log(chalk.bgBlack.yellow.italic('Hello, World!'));
 ```
 
 ## Styles

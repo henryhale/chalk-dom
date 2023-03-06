@@ -73,4 +73,4 @@ test('Thank you very much', t => {
     t.equal(p.white('Thank', 'you', 'very', 'much'), '<span style="color:#FFFFFF;">Thank you very much</span>');
 });
 
-log('\n:) I\'m glad you tested \u001B[36mchalko\u001B[39m\n');
+log('\n:) I\'m glad you tested \u001B[36mchalk-dom\u001B[39m\n');
