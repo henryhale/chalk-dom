@@ -7,6 +7,13 @@
 
 > Just like [chalk](https://github.com/chalk/chalk) but right in your browser. It uses HTMElement elements (b,s,i,span) and a little inline-css.
 
+<br>
+<div align="center">
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/henryhale/chalk-dom/npm-publish.yml">
+<img alt="npm" src="https://img.shields.io/npm/v/chalk-dom">
+<img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/henryhale/chalk-dom">
+<img alt="GitHub" src="https://img.shields.io/github/license/henryhale/chalk-dom">
+</div>
 <br/>
 
 ## Features
