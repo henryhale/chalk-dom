@@ -112,6 +112,7 @@ log(chalk.bgBlack.yellow.italic('Hello, World!'));
 ## Related
 
 - [Inken](https://github.com/henryhale/inken) - terminal-like string styling for the browser
+- [xterminal](https://github.com/henryhale/xterminal) - build web-based cli interfaces 
 
 ## LICENSE
 
