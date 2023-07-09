@@ -79,6 +79,7 @@ log(chalk.bgBlack.yellow.italic('Hello, World!'));
 - `italic` - Make the text italic.
 - `underline` - Underline the text.
 - `strikethrough` - Put a horizontal line through the center of the text.
+- `inverse` - Invert the background and foreground colors.
 
 ### User defined
 

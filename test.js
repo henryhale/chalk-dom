@@ -37,6 +37,10 @@ test('dim', t => {
     t.equal(p.dim('dim'), '<span style="opacity:0.5;">dim</span>');
 });
 
+test('inverse', t => {
+    t.equal(p.bgWhite.black.inverse('inverse', 'colors'), '<span style="background-color:#000000;color:#FFFFFF;">inverse colors</span>');
+});
+
 log('\nText colors');
 
 test('black', t => {
@@ -71,10 +75,6 @@ log('\nMultiple arguments');
 
 test('Thank you very much', t => {
     t.equal(p.white('Thank', 'you', 'very', 'much'), '<span style="color:#FFFFFF;">Thank you very much</span>');
-});
-
-test('inverse colors', t => {
-    t.equal(p.bgWhite.black.inverse('inverse', 'colors'), '<span style="background-color:#000000;color:#FFFFFF;">inverse colors</span>');
 });
 
 log('\n:) I\'m glad you tested \u001B[36mchalk-dom\u001B[39m\n');
