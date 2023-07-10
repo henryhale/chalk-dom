@@ -7,7 +7,7 @@ export interface ChalkConstructor {
 }
 
 export interface Chalk {
-    
+
     constructor: ChalkConstructor;
 
     bg(color: string): this;
@@ -18,6 +18,7 @@ export interface Chalk {
     readonly italic: this;
     readonly underline: this;
     readonly strikethrough: this;
+    readonly inverse: this;
 
     readonly black: this;
     readonly red: this;
