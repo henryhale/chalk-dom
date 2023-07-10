@@ -37,6 +37,10 @@ test('dim', t => {
     t.equal(p.dim('dim'), '<span style="opacity:0.5;">dim</span>');
 });
 
+test('inverse', t => {
+    t.equal(p.bgWhite.black.inverse('inverse', 'colors'), '<span style="background-color:#000000;color:#FFFFFF;">inverse colors</span>');
+});
+
 log('\nText colors');
 
 test('black', t => {

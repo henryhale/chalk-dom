@@ -1,6 +1,6 @@
 const userDefined = ['bg', 'fg'];
 
-const modifiers = ['dim', 'bold', 'italic', 'underline', 'strikethrough'];
+const modifiers = ['dim', 'bold', 'italic', 'underline', 'strikethrough', 'inverse'];
 
 const colors = {
     black:  '#000000',
@@ -28,6 +28,7 @@ const defaultConfig = {
     italic: false,
     underline: false,
     strikethrough: false,
+    inverse: false,
 };
 
 class Chalk {
@@ -89,7 +90,7 @@ class Chalk {
 
     /**
      * @private api
-     * @param {boolean} flag 
+     * @param {boolean} flag
      */
     _create(flag) {
         const $self = !flag ? this : new Chalk({ nest: true });
@@ -122,17 +123,20 @@ class Chalk {
 
         if (argsLen > 1) {
             for (let i = 1; i < argsLen; i++) {
-                data += ' ' + args[i];         
+                data += ' ' + args[i];
             }
         }
-        
-        const { bg, fg, bold, italic, underline, strikethrough, dim } = this._config;
-        
+
+        const { bg, fg, bold, italic, underline, strikethrough, dim, inverse } = this._config;
+
         const wrap = bg || fg || dim;
 
+        const bgColor = inverse ? fg : bg;
+        const fgColor = inverse ? bg : fg;
+
         const output = (wrap ? '<span style="' : '') +
-        (this._config.bg ? 'background-color:' + this._config.bg + ';' : '') +
-        (this._config.fg ? 'color:' + this._config.fg + ';' : '') + 
+        (bgColor ? 'background-color:' + bgColor + ';' : '') +
+        (fgColor ? 'color:' + fgColor + ';' : '') +
         (this._config.dim ? 'opacity:0.5;' : '') +
         (wrap ? '">' : '') +
         (this._config.bold ? '<b>' : '') +
@@ -147,7 +151,7 @@ class Chalk {
         (wrap ? '</span>' : '');
 
         this._reset();
-        
+
         return output;
     }
 }
