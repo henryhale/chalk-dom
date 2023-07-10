@@ -137,17 +137,17 @@ class Chalk {
         const output = (wrap ? '<span style="' : '') +
         (bgColor ? 'background-color:' + bgColor + ';' : '') +
         (fgColor ? 'color:' + fgColor + ';' : '') +
-        (this._config.dim ? 'opacity:0.5;' : '') +
+        (dim ? 'opacity:0.5;' : '') +
         (wrap ? '">' : '') +
-        (this._config.bold ? '<b>' : '') +
-        (this._config.underline ? '<u>' : '') +
-        (this._config.strikethrough ? '<s>' : '') +
-        (this._config.italic ? '<i>' : '') +
+        (bold ? '<b>' : '') +
+        (underline ? '<u>' : '') +
+        (strikethrough ? '<s>' : '') +
+        (italic ? '<i>' : '') +
         (data || '') +
-        (this._config.italic ? '</i>' : '') +
-        (this._config.strikethrough ? '</s>' : '') +
-        (this._config.underline ? '</u>' : '') +
-        (this._config.bold ? '</b>' : '') +
+        (italic ? '</i>' : '') +
+        (strikethrough ? '</s>' : '') +
+        (underline ? '</u>' : '') +
+        (bold ? '</b>' : '') +
         (wrap ? '</span>' : '');
 
         this._reset();
