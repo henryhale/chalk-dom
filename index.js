@@ -134,7 +134,7 @@ class Chalk {
         const bgColor = inverse ? fg : bg;
         const fgColor = inverse ? bg : fg;
 
-        const output = (wrap ? '<span style="' : '') +
+        const output = (wrap ? '<span style="white-space: pre;' : '') +
         (bgColor ? 'background-color:' + bgColor + ';' : '') +
         (fgColor ? 'color:' + fgColor + ';' : '') +
         (dim ? 'opacity:0.5;' : '') +
