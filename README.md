@@ -5,7 +5,7 @@
 </div>
 <br/>
 
-> Just like [chalk](https://github.com/chalk/chalk) but right in your browser. It uses HTMElement elements (b,s,i,span) and a little inline-css.
+> Just like [chalk](https://github.com/chalk/chalk) but right in your browser. It uses HTML elements (b,s,i,span) and a little inline-css.
 
 <br>
 <div align="center">
@@ -24,7 +24,7 @@
 - Customizable
 - Doesn't extend `String.prototype`
 - Clean and focused
-- Actively maintained
+- Maintained
 
 ## Install
 
